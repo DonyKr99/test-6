@@ -1,0 +1,37 @@
+header {
+  display: flex;
+  position: fixed;
+  justify-content: space-around;
+  top: 0;
+  width: 100%;
+  height: 50px;
+  background: #F8F8F8;
+  z-index: 1;
+}
+
+a {
+  text-decoration: none;
+  line-height: 48px;
+
+
+}
+
+.black {
+  color: black;
+}
+
+.white {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0 20px 0 20px;
+  margin: 7px 0 7px 0;
+  background: #3366ff;
+  border: none;
+  border-radius: 4px;
+  color: white;
+}
+
+.white:hover {
+  background: #4d79ff;
+}

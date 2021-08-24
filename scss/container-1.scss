@@ -1,0 +1,47 @@
+.container-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.img-1 {
+  display: flex;
+  height: 550px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.input {
+  display: flex;
+  position: absolute;
+  width: 300px;
+  height: 30px;
+  border-radius: 4px;
+  margin-left: -120px;
+  border: none;
+}
+
+.sign-up {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  position: absolute;
+  margin-left: 310px;
+  color: white;
+  background: #3366ff;
+  border-radius: 4px;
+  height: 30px;
+  padding: 0 30px 0 30px;
+}
+
+.sign-up:hover {
+  background: #4d79ff
+}
+
+.text-1 {
+  display: flex;
+  margin-bottom: 220px;
+  text-align: center;
+  flex-direction: column;
+  position: absolute;
+  color: white;
+}
